@@ -1,0 +1,58 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+body {
+    background-image:url(imagen/fondo.png)
+    
+}
+
+nav{
+    color:rgb(94, 131, 168);
+    background: rgb(94, 131, 168);
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 80px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    background: rgba(96, 187, 243, 0.849);
+    float:left;
+    font:bold 14,Courier New,verdana, sans-serif;
+}
+.main .articles article{
+    padding: 10px;
+    background: rgba(96, 187, 243, 0.849);
+    margin-bottom: 10px;
+    font:bold 14,Courier New,verdana, sans-serif;
+}
+
+aside{
+    width: 40%;
+    float: left;
+    background: orange;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+footer{
+    clear:both;
+    background: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
